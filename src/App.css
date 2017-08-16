@@ -1,0 +1,25 @@
+.resultList{
+  width:100%;
+  padding: 0;
+  margin:0 auto;
+  list-style: none;
+  
+}
+
+.resultList li{
+  border-bottom:1px solid #ccc;
+  font-size:1rem;
+  padding:10px;
+
+}
+.resultList li h1, .resultList li h2{
+  font-size:1rem;
+}
+
+.resultList li h1 {
+  font-weight: 800;
+}
+
+.resultList li:nth-child(odd){
+  background:#eee;
+}
